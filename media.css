@@ -1,0 +1,178 @@
+@media screen and (max-width:1200px){
+    #navbar{
+        display: none;
+    }
+    #hamburger_nav{
+        display: flex;
+    }
+}
+@media screen and (max-width: 600px) {
+  *{
+scroll-behavior: smooth;
+  }
+  nav{
+    z-index: 2;
+  }
+  section{
+    padding-top: 4vh;
+    margin: 0 10rem;
+    min-height: fit-content;  
+    box-sizing: border-box;
+  }
+    #About1
+    {
+        height: 80vh;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height:fit-content
+    }
+  .about_text{
+   font-size: 0.5rem;
+   font-weight:300;
+  }
+  #myimg{
+    height: 220px;
+    width: 220px ;
+  }
+  #Experience-me{
+    min-height: fit-content;
+    height: max-content;
+    margin-bottom: 8vh;
+
+  }
+  .section2_maincard{
+    display:flex;
+    margin: 0,auto,auto,0;
+    padding: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: center;
+  }
+  #imageflex{
+    display: flex;
+    margin: 0,auto,auto,0;
+    max-height: fit-content;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .secondpic{
+    align-items: centre;
+    height: 250px;
+    width: 250px;
+  }
+  #note1{
+    text-align: center;
+  }
+  #Experience2{
+    margin-top: 75vh;
+    margin: 8vh, 0, 0, 0;
+    padding-top: 4vh;
+    position: relative; 
+    margin-bottom: 3rem;
+    max-height: fit-content;
+    box-sizing: border-box;
+ }
+  .plate1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-evenly;
+    column-gap: 2px;
+  }
+  #left,#right{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin:0,auto,auto,0;
+    padding: 8%;
+  }
+  #level{
+    text-align:left;
+  }
+  #check1{
+    margin-right: 2rem;
+  }
+  #Projects{
+    margin: 0;
+    padding: 3%;
+    display: block;
+  }
+  .project-intro{
+    position: relative;
+  }
+  .project-intro{
+    display: flex;
+    margin: 0%,auto,auto,0;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  #probtn{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+  }
+  .projectplate
+  {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+    
+  }
+  .git_btn,.video_btn{
+    padding: 4px, 1px ;
+    width: 5rem;
+    margin-right: 4%;
+    height: fit-content;
+    border-radius: 3rem; 
+    font-weight: 300;
+  }
+  .projectimg{
+    height: 200px;
+    width: 200px;
+  }
+  .project1,.project2,.project3
+  {
+    padding:3%,0;
+    border:1px solid darkgray;
+  }
+  #contact_me1{
+    display: block;
+    margin: 0;
+    padding: 3%;
+  }
+  .section3-intro{
+    margin-top:20% ;
+  }
+  .cntmain{
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0;;
+    margin: 0,auto,auto,0;
+  }
+  #sub{
+    padding-top: 5px;
+  }
+  .email,.phone{
+    font-size: small;
+    font-weight: 300;
+  }
+  .footer{
+    position:relative; 
+    margin: 4vh,0,4vh,0;
+  }
+  .navlinkfooter{
+    margin-top: 10% ;
+    display: block;
+  }
+  #copy{
+    margin-top: 5rem;
+  }
+}

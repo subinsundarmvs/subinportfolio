@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>My portfolio </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <script src="myscripts.js"></script>
+     <nav  id="navbar">
+      <div class="logo"> SUBIN SUBRAMANIAN <a href="#About"></a> </div>
+      <div >
+        <ul class="navlink">
+            <li><a href="#Experience--me">About</a></li>
+            <li><a href="#Experience2">Experience</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#contact_me1">Contact</a></li>
+        </ul>
+      </div>
+     </nav>
+     <nav id="hamburger_nav">
+        <div class="logo2">SUBIN SUBRAMANIAN</div>
+        <div class="hamburger">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu">
+                
+                    <li><a href="#Experience--me" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#Experience2" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact_me1" onclick="toggleMenu()">Contact</a></li>
+             
+            </div>
+        </div>
+     </nav>
+     <section id="About1">
+        <img id="myimg" src="images/passport pic subin.jpg" alt="subins profile pic">
+        <div class="about_text">
+            <div id="infos">
+            <p id="p1">Hello, i'm</p>
+            <h1 id="nametag">SUBIN SUBRAMANIAN</h1>
+            <h4  id="roletag">Software Developer Trainee</h4>
+           </div>
+           <div class="main_btn">
+            <button class="cv_btn" onclick = "window    .open('./images/subinsresume.pdf')">
+                Download CV
+            </button>
+            <button class="contact_btn" onclick = "location.href='./#Contact'">
+                Contact Info
+            </button>
+           </div>
+           <div class="socialmedia_btn">
+             <img src="/images/linkedin.png" alt="linkedin icon" onclick="window.open('https://www.linkedin.com/feed/')" >
+             <img src="/images/github.png" alt="github icon"  onclick="window.open('https://www.github.com' )">
+           </div>
+        </div>
+     </section>
+     <section id="Experience--me">
+        <div class="section2-intro">
+             <p id="get">Get to Know More</p>
+             <h2 id="abt">About Me</h2>
+        </div>
+        <div class="section2_maincard">
+                <img src="images/362351158_278144284798979_9048807761564362641_n.jpg" alt="section2pic" class="secondpic">
+            <div id="imageleft1">
+              <div id="imageflex">
+                <div id="temp1">
+                    <img src="images/experience.png" alt="Edu pic" id="exppic">
+                    <h6 id="titleexp">Experience</h6>
+                   <p id="contexp">
+                    Fresher 
+                   </p>
+                </div>
+                <div id="temp2">
+                    <img src="images/education.png" alt="Edu pic" id="edupic">
+                    <h6 id="titleedu">Education</h6>
+                   <p id="contedu">
+                    B.E Mechatronics    
+                   </p>
+                </div>
+            </div>
+            <div id="passage1">
+                <p id="note1">
+                    A passionate and hardworking engineering graduate with liberal
+                    mind seeking corporate experience to improvise skills learnt
+                    through educational knowledge to achieve best result.
+                </p>
+            </div>
+            </div>
+        </div>
+     </section>
+      <section id="Experience2">
+        <div class="section2-intro">
+            <p id="get">Explore My</p>
+            <h2 id="abt">Experience</h2>
+       </div>
+       <div class="plate1">
+        <div id="left">
+            <h2>FrontEnd Development</h2>
+            <div class="plate1left">
+             <li>
+                <img src="images/checkmark.png" alt="pic" id="check1">
+                <div><h3>HTML</h3>
+                    <p id="level">Intermediate</p>
+                </div>
+                
+             </li>
+             <li>
+                <img src="images/checkmark.png" alt="pic" id="check1">
+                <div><h3>CSS</h3>
+                    <p id="level">Intermediate</p></div>
+             </li>
+            <li>
+                <img src="images/checkmark.png" alt="pic" id="check1">
+                <div><h3>   FIGMA</h3>
+                    <p id="level">Basic</p></div>
+                
+            </li>
+            <li>
+                <img src="images/checkmark.png" alt="pic"  id="check1">
+                <div><h3>Android Studio</h3>
+                    <p id="level">Basic</p></div>  
+             </li>
+            </div>
+        </div>
+        <div id="right">
+            <h2>Backend Development</h2>
+            <div class="plate1right">
+                <li>
+                    <img src="images/checkmark.png" alt="pic"  id="check1">
+                   <div> <h3>Core Java</h3>
+                    <p id="level">Intermediate</p></div>
+                </li>
+                <li>
+                    <img src="images/checkmark.png" alt="pic"  id="check1">
+                    <div><h3>Python</h3>
+                        <p id="level">Basic</p></div>
+                </li>
+               <li>
+                <img src="images/checkmark.png" alt="pic"  id="check1">
+                <div><h3>Azure Platform</h3>
+                    <p id="level">Basic</p></div>
+                
+               </li>
+               <li>
+                <img src="images/checkmark.png" alt="pic"  id="check1">
+                <div><h3>JavaScript</h3>
+                    <p id="level">Basic</p></div>
+               </li>
+           </div>
+        </div>
+
+        </div>
+
+       </div>
+
+     </section> 
+       <section id="Projects">
+        <div class="project-into">
+            <p id="get">Take a look at my</p>
+            <h2 id="abt">Projects</h2>
+       </div>
+       <div class="projectplate">
+        <div class="project1">
+            <img src="images/Picture1.jpg" alt="pjt1" class="projectimg">
+            <h3>Haptic Control Module</h3>
+            <div id="probtn">
+                <button class="git_btn" onclick = "window    .open('./images/DESIGN AND FABRICATION OF HAPTIC CONTROLLER MODULE FOR TELEOPERATION OF ROBOTS (1).pptx')">
+                    Ppt 
+                </button>
+                <button class="video_btn" onclick = "window    .open('./images/WhatsApp Video 2023-04-12 at 22.37.37 (1).mp4')">
+                    Video
+                </button>
+            </div>
+        </div>
+        <div class="project2"><img src="images/Screenshot 2023-09-09 192834.png" alt="pjt1" class="projectimg">
+            <h3>Portfolio</h3>
+            <div id="probtn">
+                <button class="git_btn" onclick = "window    .open('https://www.github.com')">
+                    Github 
+                </button>
+                <button class="video_btn" onclick = "window    .open('./images/subinsresume.pdf')">
+                    Video
+                </button>
+            </div></div>
+        <div class="project3"><img src="images/IMG20220623092240.jpg" alt="pjt1" class="projectimg">
+            <h3>Automatic Attendance</h3>
+            <div id="probtn">
+                <button class="git_btn" onclick = "window    .open('https://github.com/subinsundarmvs/automaticattendence')">
+                    Github 
+                </button>
+                <button class="video_btn" onclick = "window    .open('./images/minireport-converted.pdf')">
+                    Report
+                </button>
+            </div></div>
+       </div>
+    </section>
+     <section id="contact_me1">
+        <div class="section3-intro">
+            <p id="get">Get in Touch</p>
+            <h2 id="abt">Contact Me</h2>
+       </div>
+       <div class="cntmain">
+        <div class="email">
+            <img src="images/email.png" alt="email" id="pe">
+         <h3 id="sub">subinsundarmvs@gmail.com</h3>
+        </div>
+        <div class="phone">
+            <img src="images/phone.jpg" alt="phone" id="pe">
+             <h3 id="sub">9344042592</h3>
+        </div>
+       </div>
+     </section> 
+       <footer>
+        <nav>
+              <ul class="navlinkfooter">
+                  <li><a href="#Experience--me">About</a></li>
+                  <li><a href="#Experience2">Experience</a></li>
+                  <li><a href="#Projects">Projects</a></li>
+                  <li><a href="#contact_me1">Contact</a></li>
+              </ul>
+            </div>
+        </nav>
+        <p id="copy">
+            Copyright © 2023 Subin. All Rights Reserved
+        </p>
+     </footer> 
+    </body>
+</html>
